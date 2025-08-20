@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@health-superapp/ui": ["./packages/ui/src"],
+      "@health-superapp/utils": ["./packages/utils/src"],
+      "@health-superapp/config": ["./packages/config/src"],
+      "@health-superapp/sdk": ["./packages/sdk/src"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}
+
